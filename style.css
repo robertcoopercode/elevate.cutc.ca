@@ -1,0 +1,33 @@
+body {
+  background: #000;
+}
+
+video {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+}
+
+.site-title {
+  font-size: 130px;
+  text-align: center;
+  padding-top: 250px;
+  color: #c12525;
+  text-shadow: 5px 5px 4px #fff;
+  margin-top: 0px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 50px;
+}
