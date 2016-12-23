@@ -15,7 +15,7 @@ video {
 
 .header-content {
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .site-title {
@@ -30,4 +30,31 @@ video {
 .logo {
   text-align: center;
   margin-top: 50px;
+}
+
+.logo img {
+  width: 500px;
+}
+
+header {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+header:after {
+  content: " ";
+  z-index: 2;
+  display: block;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main-content {
+  z-index: 4;
 }
