@@ -1,60 +1,57 @@
 body {
-  background: #000;
+  background: #fff;
+  font-family: Arial, sans-serif;
 }
 
-video {
-  position: fixed;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 1;
-}
-
-.header-content {
+.content-block {
   position: relative;
-  z-index: 3;
+  overflow: hidden;
+  padding: 10px;
+  height: 100vh;
 }
 
-.site-title {
-  font-size: 130px;
-  text-align: center;
-  padding-top: 250px;
-  color: #c12525;
-  text-shadow: 5px 5px 4px #fff;
-  margin-top: 0px;
-}
-
-.logo {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.logo img {
-  width: 500px;
-}
-
-header {
+.bgvideo {
+  position: absolute;
+  top: 50%; left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
+  z-index: -1;
+  filter: brightness(0.5);
 }
 
-header:after {
-  content: " ";
-  z-index: 2;
-  display: block;
-  position: fixed;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
+#site-title {
+  margin-top: 0;
+  width: 100%;
+  font-size: 6rem;
+  text-align: center;
+  color: #b4160e;
 }
 
-.main-content {
-  z-index: 4;
+#block1 .logo {
+  text-align: center;
+}
+#block1 .logo img {
+  width: 70%;
+  max-width: 400px;
+}
+
+@media (max-width: 599px) {
+  #site-title {
+    font-size: 15vw;
+  }
+  #block1 .logo img {
+    max-width: 40vw;
+  }
+}
+
+@media (max-height: 849px) {
+  .content-block {
+    height: auto;
+  }
 }
