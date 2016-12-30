@@ -1,3 +1,5 @@
-# Brand New Website for CUTC 2017 - ELEVATE
+# Website for Canadian Undergraduate Technology Conference 2017
 
-We are starting from scratch boys and girls. Feel free to recycle some of the design from last year's website as a guide for the new website.
+The theme this year is Elevate.
+
+This website will allow visitors to learn more about CUTC 2017 (events, speakers, etc) and purchase tickets.
