@@ -10,31 +10,33 @@
       <link rel="icon" href="media/images/favicon.ico">
       <link rel="stylesheet" href="normalize.css" />
       <link rel="stylesheet" href="style.css" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <nav id="navbar">
 
   </nav>
   <body>
-    <div class="content-block" id="block1">
-      <div class="background">
-        <video playsinline autoplay loop muted poster="media/images/bgbackup.jpg" class="bgvideo">
-          <source src="media/videos/demo.webm" type="video/webm" />
-          <source src="media/videos/demo.mp4" type="video/mp4" />
-          <source src="media/videos/demo.ogv" type="video/ogg" />
-        </video>
-      </div>
-      <h1 id="site-title">CUTC 2017</h1>
+    <div class="content_block" id="header_block">
       <div class="logo"><img src="media/images/logo.png"/></div>
+      <div class="subtitle">16th Canadian Undergraduate Technology Conference</div>
+      <h1 id="main_title" class="title">ELEVATE</h1>
+      <div class="subtitle">April 20, 1337 | Mars, 4th from the Sun</div>
+      
+      <button id="ticket_button">Get Tickets</button>
+      <div class="subtitle">Discounted Early Bird tickets release on Friday the 13th!</div>
+      
+      <video class="bgvideo" playsinline autoplay loop muted poster="media/images/bgbackup.jpg">
+        <source src="media/videos/demo.webm" type="video/webm" />
+        <source src="media/videos/demo.mp4" type="video/mp4" />
+        <source src="media/videos/demo.ogv" type="video/ogg" />
+      </video>
+      <div class="bgvideo" id="darken"></div>
     </div>
 
-    <div class="content-block">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget arcu libero. Vestibulum eget aliquet nisl, eget luctus enim. Duis placerat massa eget orci euismod, in interdum lorem volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam ante ex, elementum eu magna non, blandit efficitur dui. In nec sapien et dolor rhoncus sagittis. Proin at odio quis libero viverra dapibus. Nunc neque lacus, sodales id tellus eget, pretium suscipit lectus.
-
-        Vestibulum faucibus, tellus at finibus blandit, metus odio convallis diam, in euismod augue justo ac velit. In hac habitasse platea dictumst. Vestibulum nec feugiat urna. Praesent tincidunt, massa id convallis euismod, quam quam iaculis turpis, a posuere odio arcu eget ligula. Aenean tincidunt mauris sed sem consectetur, vel volutpat orci venenatis. Sed ut velit dapibus, aliquam risus ac, blandit ipsum. Pellentesque turpis turpis, consequat vel nisl id, molestie consequat dui. Maecenas nec nulla non ligula pellentesque vestibulum. Ut faucibus eget quam sit amet mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-        Sed euismod velit in arcu rhoncus, quis dictum orci faucibus. Donec turpis massa, aliquet venenatis turpis nec, molestie interdum mauris. Aenean sit amet dignissim risus. Aliquam quis metus auctor, accumsan leo malesuada, varius mi. Integer viverra nunc vel sapien ultricies, a pharetra massa venenatis. Aenean convallis ipsum vitae ante tincidunt pellentesque. Proin eu neque ex. Mauris non sem sagittis, ornare leo vitae, tincidunt tortor. Fusce sed quam quis dui congue faucibus. Maecenas ultricies hendrerit massa ac bibendum. Etiam eu felis nisi. Etiam ac velit nec turpis suscipit pretium nec eget neque. Nullam in finibus neque, eget semper sapien. Duis ullamcorper pharetra venenatis.
-      </p>
+    <div class="content_block">
+        <h2 class="title">Calling All Leaders/Entrepreneurs/Techies</h2>
+        <p>Email Signup</p>
+        <p>Updates and a reminder when tickets drop</p>
     </div>
   </body>
 </html>

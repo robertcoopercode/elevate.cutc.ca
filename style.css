@@ -1,13 +1,22 @@
-body {
-  background: #fff;
-  font-family: Arial, sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-.content-block {
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content_block {
   position: relative;
   overflow: hidden;
-  padding: 10px;
   height: 100vh;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+#header_block {
+  text-align: center;
 }
 
 .bgvideo {
@@ -22,36 +31,90 @@ body {
   width: auto;
   height: auto;
   z-index: -1;
-  filter: brightness(0.5);
+}
+#darken {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-#site-title {
-  margin-top: 0;
+.logo {
+  margin-bottom: 2rem;
+}
+#header_block .logo img {
+  width: 55%;
+  max-width: 350px;
+}
+
+.title {
   width: 100%;
-  font-size: 6rem;
-  text-align: center;
   color: #b4160e;
+  font-size: 5rem;
+  margin-bottom: 10px;
 }
 
-#block1 .logo {
-  text-align: center;
+#main_title {
+  margin-top: 0;
+  padding-bottom: 4px;
+  font-size: 6rem;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-#block1 .logo img {
-  width: 70%;
-  max-width: 400px;
+
+.subtitle {
+  width: 100%;
+  color: #969696;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#ticket_button {
+  display: inline-block;
+  position: relative;
+  margin-top: 18vh;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 30vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  border: none;
+  color: white;
+  background-color: #b4160e;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+#ticket_button:hover {
+  background-color: #cf1a10;
+}
+#ticket_button:active {
+  background-color: #8e110b;
+}
+
+@media (max-width: 999px) {
+  #main_title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 499px) {
+  #ticket_button {
+    width: 150px;
+  }
 }
 
 @media (max-width: 599px) {
-  #site-title {
+  .title {
+    font-size: 14vw;
+  }
+  #main_title {
     font-size: 15vw;
   }
-  #block1 .logo img {
+  #header_block .logo img {
     max-width: 40vw;
   }
 }
 
-@media (max-height: 849px) {
-  .content-block {
+@media (max-height: 699px) {
+  .content_block {
     height: auto;
   }
 }
