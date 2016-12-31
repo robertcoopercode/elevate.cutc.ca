@@ -39,6 +39,7 @@ body {
 .logo {
   margin-bottom: 2rem;
 }
+
 #header_block .logo img {
   width: 55%;
   max-width: 350px;
@@ -87,6 +88,14 @@ body {
 }
 #ticket_button:active {
   background-color: #8e110b;
+}
+
+#summary {
+  background: url('media/images/bgbackup.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 999px) {
