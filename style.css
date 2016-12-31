@@ -1,10 +1,14 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.5em;
 }
 
 body {
   background: #fff;
-  font-family: "Open Sans", sans-serif;
 }
 
 .content_block {
@@ -36,8 +40,8 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.logo {
-  margin-bottom: 2rem;
+.logo img {
+  margin: 5em 0 2em 5em;
 }
 
 #header_block .logo img {
@@ -46,23 +50,25 @@ body {
 }
 
 .title {
-  width: 100%;
   color: #b4160e;
-  font-size: 5rem;
   margin-bottom: 10px;
+}
+
+h1.title {
+  font-size: 5em;
 }
 
 #main_title {
   margin-top: 0;
   padding-bottom: 4px;
-  font-size: 6rem;
+  font-size: 6em;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .subtitle {
   width: 100%;
   color: #969696;
-  font-size: 1rem;
+  font-size: 1.5em;
   margin-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -75,8 +81,7 @@ body {
   margin-bottom: 20px;
   padding: 10px;
   width: 30vw;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5em;
   border: none;
   color: white;
   background-color: #b4160e;
@@ -92,15 +97,31 @@ body {
 
 #summary {
   background: url('media/images/bgbackup.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+  padding: 120px 0px;
+  height: 700px;
+}
+
+#summary .title {
+  margin-bottom: 50px;
+}
+
+#summary .input-group {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+h2.title {
+  font-size: 4em;
 }
 
 @media (max-width: 999px) {
   #main_title {
-    font-size: 5rem;
+    font-size: 5em;
   }
 }
 
