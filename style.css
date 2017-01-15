@@ -11,13 +11,6 @@ body {
 /************************************************************************************/
 
 .bgvideo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
   z-index: -1;
 }
 .darken {
@@ -27,6 +20,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 .title {
   width: 100%;
@@ -54,6 +48,15 @@ body {
 /*CONTENT BLOCK CLASSES*/
 /************************************************************************************/
 
+.span_block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
 .content_block {
   position: relative;
   overflow: hidden;
@@ -67,12 +70,19 @@ body {
   padding-top: 0;
   background: white;
 }
+.content_block_inverted {
+  background: #cf1a10;
+}
+.content_block_inverted * {
+  color: white;
+}
 .content_block_small .title {
   font-size: 3em;
   margin-top: 20px;
 }
 .filler_block {
   background-color: rgba(0, 0, 0, 0);
+  z-index: -1;
 }
 
 /************************************************************************************/
@@ -118,6 +128,14 @@ body {
 }
 
 /************************************************************************************/
+/*COUNTDOWN BLOCK*/
+/************************************************************************************/
+
+#countdown_block {
+  box-shadow: 0px 2px 20px 0px;
+}
+
+/************************************************************************************/
 /*EMAIL BLOCK*/
 /************************************************************************************/
 
@@ -135,7 +153,7 @@ body {
 /************************************************************************************/
 
 #temp1_block {
-  background: url(http://2016.cutc.ca/images/CUTC-2010-9.jpg) no-repeat fixed;
+  background: url(media/images/cutcdelegates2010dark.jpg) no-repeat fixed;
 }
 
 /************************************************************************************/
