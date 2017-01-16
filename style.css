@@ -119,6 +119,42 @@ h2.title {
   font-size: 4em;
 }
 
+/* Speakers Block */
+
+#speakers {
+  text-align: center;
+}
+
+#speakers .description {
+  padding-bottom: 30px;
+}
+
+#speakers .headshot {
+  width: 200px;
+  max-width: 100%;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease-in-out;
+}
+
+#speakers .speaker {
+  padding-bottom: 50px;
+}
+
+#speakers .speaker .headshot:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+    box-shadow: 0 0 0 5px #C34C39;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
 @media (max-width: 999px) {
   #main_title {
     font-size: 5em;
