@@ -14,7 +14,7 @@ body {
   z-index: -1;
 }
 .darken {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
 .title {
@@ -23,6 +23,9 @@ body {
   font-size: 5em;
   margin-bottom: 10px;
   text-align: center;
+}
+h2.title {
+  font-size: 3.4em;
 }
 .title_thin {
   font-weight: normal;
@@ -37,6 +40,8 @@ body {
 }
 .logo {
   margin-bottom: 2em;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /************************************************************************************/
@@ -70,6 +75,18 @@ body {
 }
 .content_block_inverted * {
   color: white;
+}
+.content_block_dark {
+  background: #191616;
+}
+.content_block_dark *:not(.title) {
+  color: white;
+}
+.content_block_light {
+  background: #ffffff;
+}
+.content_block_light *:not(.title) {
+  color: #000000;
 }
 .content_block_small .title {
   font-size: 3em;
@@ -141,6 +158,34 @@ body {
   background-repeat: no-repeat;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+/************************************************************************************/
+/*ABOUT BLOCK*/
+/************************************************************************************/
+
+#about_block {
+  box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+  background-image: url(media/images/circuitsbothsidesbg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  /*background-image: url(media/images/darkcircuitsbg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;*/
+}
+
+/************************************************************************************/
+/*SPEAKERS BLOCK*/
+/************************************************************************************/
+
+#speakers_block {
+  background-image: url(media/images/darkcircuitsbg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 /************************************************************************************/
