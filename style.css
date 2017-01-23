@@ -126,7 +126,7 @@ h2.title {
 }
 
 #speakers .description {
-  padding-bottom: 30px;
+  padding: 30px 0px;
 }
 
 #speakers .headshot {
@@ -144,6 +144,10 @@ h2.title {
   padding-bottom: 50px;
 }
 
+#speakers .speaker p {
+  margin-top: 30px;
+}
+
 #speakers .speaker .headshot:hover {
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
@@ -153,6 +157,10 @@ h2.title {
     -ms-transform:scale(1.1); /* IE 9 */
     -o-transform:scale(1.1); /* Opera */
     transform:scale(1.1);
+}
+
+#sponsors {
+  text-align: center;
 }
 
 @media (max-width: 999px) {
