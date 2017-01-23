@@ -163,9 +163,13 @@ h2.title {
   text-align: center;
 }
 
+#sponsors .sponsor {
+  margin: 40px 0px;
+}
+
 #sponsors .sponsor h3 {
   color: #b4160e;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 999px) {
