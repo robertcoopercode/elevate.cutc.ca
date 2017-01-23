@@ -163,6 +163,11 @@ h2.title {
   text-align: center;
 }
 
+#sponsors .sponsor h3 {
+  color: #b4160e;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 999px) {
   #main_title {
     font-size: 5em;
