@@ -159,6 +159,8 @@ h2.title {
     transform:scale(1.1);
 }
 
+/* Sponsors Block */
+
 #sponsors {
   text-align: center;
   background-color: rgb(235, 235, 235);
@@ -171,6 +173,19 @@ h2.title {
 #sponsors .sponsor h3 {
   color: #b4160e;
   margin-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background: rgb(52, 52, 52);
+  padding: 15px 0px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
 }
 
 @media (max-width: 999px) {
