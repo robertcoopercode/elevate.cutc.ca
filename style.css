@@ -14,11 +14,12 @@ body {
 }
 
 h2.title {
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 h1.title {
-  font-size: 5em;
+  font-size: 1em;
+  margin: 0px auto;
 }
 
 .title {
@@ -203,7 +204,6 @@ h1.title {
 /* Footer */
 
 footer {
-  text-align: center;
   background: rgb(52, 52, 52);
   padding: 15px 0px;
 }
@@ -211,6 +211,7 @@ footer {
 footer p {
   color: white;
   font-size: 15px;
+  margin: 0px auto;
 }
 
 @media (max-width: 999px) {
