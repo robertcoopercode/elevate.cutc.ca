@@ -177,6 +177,12 @@ h1.title {
     transform:scale(1.1);
 }
 
+/* Speakers Modal Window */
+
+.modal-body p {
+  font-size: 15px;
+}
+
 /* Sponsors Block */
 
 #sponsors {
