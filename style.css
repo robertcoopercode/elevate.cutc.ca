@@ -131,9 +131,9 @@ h1.title {
   margin-bottom: 50px;
 }
 
-#summary .input-group {
-  max-width: 500px;
-  margin: auto;
+#summary #registration_button {
+  font-size: 1.5em;
+  width: 30vw;
   margin-top: 40px;
 }
 
