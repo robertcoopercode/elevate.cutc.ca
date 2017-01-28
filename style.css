@@ -1,3 +1,5 @@
+/* General Page Styling */
+
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -15,6 +17,8 @@ body {
   padding-bottom: 40px;
   padding-top: 40px;
 }
+
+/* Header Video */
 
 #header_block {
   text-align: center;
@@ -36,6 +40,7 @@ body {
   height: auto;
   z-index: -1;
 }
+
 #darken {
   background-color: rgba(0, 0, 0, 0.7);
 }
