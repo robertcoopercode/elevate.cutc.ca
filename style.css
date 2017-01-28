@@ -13,6 +13,19 @@ body {
   background: #fff;
 }
 
+h2.title {
+  font-size: 4em;
+}
+
+h1.title {
+  font-size: 5em;
+}
+
+.title {
+  color: #b4160e;
+  margin-bottom: 10px;
+}
+
 .content_block {
   padding-bottom: 40px;
   padding-top: 40px;
@@ -54,15 +67,6 @@ body {
   max-width: 350px;
 }
 
-.title {
-  color: #b4160e;
-  margin-bottom: 10px;
-}
-
-h1.title {
-  font-size: 5em;
-}
-
 #main_title {
   margin-top: 0;
   padding-bottom: 4px;
@@ -100,6 +104,8 @@ h1.title {
   background-color: #8e110b;
 }
 
+/* Summary Block */
+
 #summary {
   background: url('media/images/bgbackup.jpg');
   background-size: cover;
@@ -118,10 +124,6 @@ h1.title {
   max-width: 500px;
   margin: auto;
   margin-top: 10px;
-}
-
-h2.title {
-  font-size: 4em;
 }
 
 /* Speakers Block */
