@@ -167,6 +167,11 @@ h2.title {
   background-repeat: no-repeat;
   padding-left: 16%;
   padding-right: 16%;
+  text-align: center;
+}
+#email_form {
+  display: inline-block;
+  margin: 20px;
 }
 
 /************************************************************************************/

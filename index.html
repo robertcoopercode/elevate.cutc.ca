@@ -15,8 +15,6 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     </head>
 
-    <nav id="navbar"></nav>
-
     <body>
         <div class="content_block" id="header_block">
             <div class="logo"><img src="media/images/logo.png"/></div>
@@ -42,8 +40,10 @@
 
         <div class="content_block content_block_fit" id="email_block">
             <h2 class="title title_thin">Join Us!</h2>
-            <p>Email Signup</p>
-            <p>Updates and a reminder when tickets drop</p>
+            <form id="email_form">
+                <input type="text" name="email_input" placeholder="email@address.com" />
+                <input type="submit" value="Go" />
+            </form>
         </div>
 
         <div class="content_block content_block_light" id="about_block">
