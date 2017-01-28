@@ -116,7 +116,7 @@ h1.title {
 
 /* Summary Block */
 
-#summary {
+#registration {
   background: url('media/images/bgbackup.jpg');
   background-size: cover;
   background-position: center center;
@@ -127,11 +127,11 @@ h1.title {
   height: 500px;
 }
 
-#summary .title {
+#registration .title {
   margin-bottom: 50px;
 }
 
-#summary #registration_button {
+#registration #registration_button {
   font-size: 1.5em;
   width: 30vw;
   margin-top: 40px;
