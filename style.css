@@ -139,15 +139,15 @@ h1.title {
 
 /* Speakers Block */
 
-#speakers {
+.speakers {
   text-align: center;
 }
 
-#speakers .description {
+.speakers .description {
   padding: 30px;
 }
 
-#speakers .headshot {
+.speakers .headshot {
   width: 200px;
   max-width: 100%;
   border-radius: 50%;
@@ -158,15 +158,15 @@ h1.title {
   transition: all .5s ease-in-out;
 }
 
-#speakers .speaker {
+.speakers .speaker {
   padding-bottom: 50px;
 }
 
-#speakers .speaker p {
+.speakers .speaker p {
   margin-top: 30px;
 }
 
-#speakers .speaker .headshot:hover {
+.speakers .speaker .headshot:hover {
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
     box-shadow: 0 0 0 5px #C34C39;
