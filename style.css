@@ -5,6 +5,15 @@ body {
   background: #fff;
   font-family: "Open Sans", sans-serif;
 }
+footer {
+  background-color: rgba(29, 18, 17, 0.5);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 100%;
+  padding: 1em;
+  transform: translateY(-100%);
+}
 
 /************************************************************************************/
 /*UTILITY*/
@@ -156,8 +165,8 @@ h2.title {
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 16%;
+  padding-right: 16%;
 }
 
 /************************************************************************************/
