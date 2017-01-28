@@ -179,6 +179,17 @@ h2.title {
 
 #faq {
   text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+#faq .question-list .question {
+  margin: 40px 0px;
+}
+
+#faq .question-list .question p {
+  font-size: 15px;
+  text-align: justify;;
 }
 
 
