@@ -163,6 +163,12 @@ h2.title {
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
+#ticket_button:disabled {
+  background-color: rgba(101, 95, 95, 0.4);
+}
+#ticket_button:disabled:hover {
+  background-color: rgba(101, 95, 95, 0.4);
+}
 #ticket_button:hover {
   background-color: #cf1a10;
 }
