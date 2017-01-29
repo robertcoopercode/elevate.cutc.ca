@@ -273,6 +273,7 @@ button:active {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-blend-mode: luminosity;
 }
 #speakers_wrapper {
   margin-left: 100px;
@@ -289,6 +290,9 @@ button:active {
 .speaker .headshot {
   width: 80%;
   border-radius: 50%;
+}
+#speakers_block h3 {
+  color: #cc1910;
 }
 
 /************************************************************************************/
