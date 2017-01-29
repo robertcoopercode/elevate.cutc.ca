@@ -44,9 +44,12 @@ h1.title {
 }
 
 .btn:hover {
+  color: white;
   background-color: #cf1a10;
 }
-.btn:active {
+.btn:active,
+.btn:focus {
+  color: white;
   background-color: #8e110b;
 }
 
