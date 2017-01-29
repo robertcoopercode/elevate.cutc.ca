@@ -8,5 +8,6 @@ $(document).ready(function() {
         }, 1000);
     });
 
+    //Updates all current years
     $(".current_year").text(new Date().getFullYear());
 });
