@@ -141,6 +141,8 @@ h1.title {
 
 .speakers {
   text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .speakers .description {
@@ -148,7 +150,7 @@ h1.title {
 }
 
 .speakers .headshot {
-  width: 200px;
+  width: 300px;
   max-width: 100%;
   border-radius: 50%;
   -webkit-transition: all .5s ease; /* Safari and Chrome */
