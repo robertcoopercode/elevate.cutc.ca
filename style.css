@@ -43,6 +43,13 @@ h1.title {
   transition: background-color 0.2s ease;
 }
 
+.btn:hover {
+  background-color: #cf1a10;
+}
+.btn:active {
+  background-color: #8e110b;
+}
+
 .form-control {
   border: #fff;
 }
@@ -107,13 +114,6 @@ h1.title {
   font-size: 1.5em;
   color: #fff;
 }
-#ticket_button:hover {
-  background-color: #cf1a10;
-}
-#ticket_button:active {
-  background-color: #8e110b;
-}
-
 /* Summary Block */
 
 #registration {
