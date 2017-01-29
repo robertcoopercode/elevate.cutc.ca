@@ -294,6 +294,15 @@ button:active {
 #speakers_block h3 {
   color: #cc1910;
 }
+#speakers_block h4 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
+#speakers_block h5 {
+  margin-top: 0;
+  color: #8e8e8e;
+}
 
 /************************************************************************************/
 /*TEMP1 BLOCK*/
