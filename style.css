@@ -200,7 +200,6 @@ h1.title {
 }
 
 .speaker-modal .modal-title {
-  padding-top: 20px;
   color: #C34C39;
 }
 
@@ -210,6 +209,17 @@ h1.title {
 
 .speaker-modal .modal-footer button {
   margin: auto;
+}
+
+.speaker-modal .modal-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.speaker-modal .modal-header span {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 /* Sponsors Block */
