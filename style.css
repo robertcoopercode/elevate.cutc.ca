@@ -52,6 +52,14 @@ h2.title {
   padding-top: 45px;
   padding-bottom: 35px;
 }
+.text_center {
+  text-align: center;
+}
+.row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+}
 
 /************************************************************************************/
 /*CONTENT BLOCK CLASSES*/
@@ -111,7 +119,6 @@ h2.title {
 /************************************************************************************/
 
 #header_block {
-  text-align: center;
   background-color: rgba(0, 0, 0, 0);
   position: fixed;
   width: 100%;
@@ -167,7 +174,6 @@ h2.title {
   background-repeat: no-repeat;
   padding-left: 16%;
   padding-right: 16%;
-  text-align: center;
 }
 #email_blurb {
   margin-top: 25px;
