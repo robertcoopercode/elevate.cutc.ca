@@ -101,10 +101,18 @@ button:active {
   background-image: url(media/images/transparentcircuitsbg.png);
   background-size: cover;
   background-position: center bottom;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
 }
 .circuits_bg_light {
   background-blend-mode: color-dodge;
+}
+.flex_wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /************************************************************************************/
@@ -268,6 +276,9 @@ button:active {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+.speaker {
+  text-align: center;
 }
 
 /************************************************************************************/
