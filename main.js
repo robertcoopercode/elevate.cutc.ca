@@ -9,6 +9,7 @@ $(document).ready(function() {
     timer_hours = $("#timer_hours");
     timer_minutes = $("#timer_minutes");
     timer_seconds = $("#timer_seconds");
+    countdown();
 
     //Disabled ticket button click scrolls to email block
     $("#ticket_button.button_disabled").on("click", function(e) {
@@ -21,9 +22,6 @@ $(document).ready(function() {
 
     //Updates all current years
     $(".current_year").text(new Date().getFullYear());
-
-    //Start countdown timer
-    setTimeout(countdown, 1000);
 });
 
 function countdown() {
