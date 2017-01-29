@@ -97,6 +97,15 @@ button:active {
 .button_disabled, .button_disabled:hover, .button_disabled:active {
   background-color: rgba(101, 95, 95, 0.4);
 }
+.circuits_bg {
+  background-image: url(media/images/transparentcircuitsbg.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.circuits_bg_light {
+  background-blend-mode: color-dodge;
+}
 
 /************************************************************************************/
 /*CONTENT BLOCK CLASSES*/
@@ -122,22 +131,21 @@ button:active {
 .content_block_fit {
   height: auto;
   padding-top: 0;
-  background: white;
 }
 .content_block_inverted {
-  background: #bf180f;
+  background-color: #bf180f;
 }
 .content_block_inverted * {
   color: white;
 }
 .content_block_dark {
-  background: #191616;
+  background-color: #191616;
 }
 .content_block_dark *:not(.title) {
   color: white;
 }
 .content_block_light {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .content_block_light *:not(.title) {
   color: #000000;
