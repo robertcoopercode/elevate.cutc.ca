@@ -40,6 +40,10 @@ h2.title {
 .title_closer {
   margin-bottom: 10px;
 }
+.content_block .title_med {
+  font-size: 3em;
+  margin-top: 20px;
+}
 .subtitle {
   width: 100%;
   color: #969696;
@@ -118,10 +122,6 @@ h2.title {
 .content_block_light *:not(.title) {
   color: #000000;
 }
-.content_block_fit .title {
-  font-size: 3em;
-  margin-top: 20px;
-}
 .filler_block {
   background-color: rgba(0, 0, 0, 0);
   z-index: -1;
@@ -176,6 +176,17 @@ h2.title {
 
 #countdown_block {
   box-shadow: 0px 2px 20px 0px;
+}
+.countdown_timers {
+  margin-top: 1em;
+}
+.countdown_timers .countdown_timer {
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.countdown_timers .countdown_timer .timer {
+  font-size: 2em;
 }
 
 /************************************************************************************/
@@ -259,11 +270,24 @@ h2.title {
   #main_title {
     font-size: 5em;
   }
+  #email_input {
+    width: 40vw;
+  }
 }
 
 @media (max-width: 499px) {
+  h2.title {
+    font-size: 2.4em;
+  }
+  .content_block .title_med {
+    font-size: 2em;
+    margin-top: 30px;
+  }
   #ticket_button {
     width: 150px;
+  }
+  .countdown_timers .countdown_timer {
+    font-size: 0.8em;
   }
 }
 
