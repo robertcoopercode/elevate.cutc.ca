@@ -125,7 +125,7 @@ button:active {
   background: white;
 }
 .content_block_inverted {
-  background: #cf1a10;
+  background: #bf180f;
 }
 .content_block_inverted * {
   color: white;
@@ -193,6 +193,9 @@ button:active {
 .countdown_timers .countdown_timer .timer {
   font-size: 2em;
 }
+.countdown_timers .countdown_timer .timer_caption {
+  margin-top: 5px;
+}
 
 /************************************************************************************/
 /*EMAIL BLOCK*/
@@ -217,7 +220,7 @@ button:active {
 #email_input {
   width: 25vw;
   min-width: 100px;
-  padding-left: 2px;
+  padding-left: 5px;
   height: 100%;
   border: 1px rgba(0, 0, 0, 0.3) solid;
   border-right: none;
