@@ -124,7 +124,7 @@ h1.title {
   color: white;
   text-align: center;
   padding: 120px 0px;
-  height: 500px;
+  height: 700px;
 }
 
 #registration .title {
@@ -158,6 +158,7 @@ h1.title {
   -ms-transition: all .5s ease; /* IE 9 */
   -o-transition: all .5s ease; /* Opera */
   transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 .speakers .speaker {
@@ -179,10 +180,28 @@ h1.title {
     transform:scale(1.1);
 }
 
+.speaker h3 {
+  color: #b4160e;
+  padding-top: 25px;
+}
+
+.speaker h4 {
+  padding-top: 10px;
+}
+
 /* Speakers Modal Window */
 
-.modal-body p {
+.speaker-modal .modal-body p {
   font-size: 15px;
+}
+
+.speaker-modal .modal-title {
+  padding-top: 20px;
+  color: #C34C39;
+}
+
+.speaker-modal .modal-subtitle {
+  padding-top: 20px;
 }
 
 /* Sponsors Block */
