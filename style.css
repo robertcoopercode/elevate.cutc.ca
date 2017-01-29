@@ -293,6 +293,7 @@ button:active {
 }
 #speakers_block h3 {
   color: #cc1910;
+  margin-bottom: 0.8em;
 }
 #speakers_block h4 {
   font-weight: normal;
