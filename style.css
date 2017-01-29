@@ -110,9 +110,6 @@ button:active {
   display: -webkit-flex;
   display: -moz-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 /************************************************************************************/
@@ -277,8 +274,21 @@ button:active {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+#speakers_wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .speaker {
   text-align: center;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.speaker .headshot {
+  width: 80%;
+  border-radius: 50%;
 }
 
 /************************************************************************************/
@@ -300,6 +310,36 @@ button:active {
   #email_input {
     width: 40vw;
   }
+  #speakers_wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 799px) {
+  #speakers_wrapper {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .speaker {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 599px) {
+  .title {
+    font-size: 14vw;
+  }
+  #main_title {
+    font-size: 15vw;
+  }
+  #header_block .logo img {
+    max-width: 40vw;
+  }
+  .speaker {
+    min-width: 200px;
+  }
 }
 
 @media (max-width: 499px) {
@@ -315,18 +355,6 @@ button:active {
   }
   .countdown_timers .countdown_timer {
     font-size: 0.8em;
-  }
-}
-
-@media (max-width: 599px) {
-  .title {
-    font-size: 14vw;
-  }
-  #main_title {
-    font-size: 15vw;
-  }
-  #header_block .logo img {
-    max-width: 40vw;
   }
 }
 
