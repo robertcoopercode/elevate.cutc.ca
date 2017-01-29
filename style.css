@@ -208,6 +208,10 @@ h1.title {
   padding-top: 20px;
 }
 
+.speaker-modal .modal-footer button {
+  margin: auto;
+}
+
 /* Sponsors Block */
 
 #sponsors {
