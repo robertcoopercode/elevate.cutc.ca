@@ -84,10 +84,6 @@ h1.title {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.logo img {
-  margin: 5em 0 2em 5em;
-}
-
 #header_block .logo img {
   width: 55%;
   max-width: 350px;
@@ -111,7 +107,7 @@ h1.title {
 
 #ticket_button {
   position: relative;
-  margin-top: 18vh;
+  margin-top: 50px;
   margin-bottom: 20px;
   width: 30vw;
   font-size: 1.5em;
