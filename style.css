@@ -207,12 +207,8 @@ h2.title {
   background-image: url(media/images/circuitsbothsidesbgtile.png);
   background-size: 100%;
   background-repeat: repeat-y;
-  padding-left: 8vw;
-  padding-right: 8vw;
-  /*background-image: url(media/images/darkcircuitsbg.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;*/
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 /************************************************************************************/
