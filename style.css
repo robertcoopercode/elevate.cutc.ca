@@ -111,6 +111,28 @@ button:active {
   display: -moz-flex;
   display: flex;
 }
+.modal {
+  /*visibility: hidden;*/
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  text-align: left;
+  background-color: #ffffff;
+
+}
+.modal h3 {
+  color: #cc1910;
+  margin-bottom: 0.8em;
+}
+.modal_subtitle {
+  color: #000000;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
+.modal_body {
+  color: #000000;
+}
 
 /************************************************************************************/
 /*CONTENT BLOCK CLASSES*/
@@ -146,7 +168,7 @@ button:active {
 .content_block_dark {
   background-color: #191616;
 }
-.content_block_dark *:not(.title) {
+.content_block_dark *:not(.title):not(.modal_subtitle):not(.modal_body) {
   color: white;
 }
 .content_block_light {
