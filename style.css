@@ -111,8 +111,12 @@ button:active {
   display: -moz-flex;
   display: flex;
 }
+.modal_activator {
+  cursor: pointer;
+}
 .modal {
-  /*visibility: hidden;*/
+  visibility: hidden;
+  opacity: 0;
   position: fixed;
   top: 10vh;
   left: 0;
@@ -126,6 +130,11 @@ button:active {
   box-shadow: black 0 0 1px 0px;
   overflow: auto;
   max-height: 75vh;
+  transition: opacity ease 0.5s;
+}
+.modal_show {
+  visibility: visible;
+  opacity: 1;
 }
 .modal_header {
   padding-bottom: 15px;
