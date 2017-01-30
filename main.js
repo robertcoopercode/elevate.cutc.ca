@@ -28,10 +28,12 @@ $(document).ready(function() {
     $(".modal_activator[data-modal-id]").on("click", function(e) {
         var modal_id = $(this).attr("data-modal-id");
         $("#" + modal_id).addClass("modal_show");
+        $("body").addClass("no_scroll");
     });
     $(".button_close_modal[data-modal-id]").on("click", function(e) {
         var modal_id = $(this).attr("data-modal-id");
         $("#" + modal_id).removeClass("modal_show");
+        $("body").removeClass("no_scroll");
     });
 });
 

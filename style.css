@@ -19,6 +19,9 @@ footer {
 /*UTILITY*/
 /************************************************************************************/
 
+.no_scroll {
+  overflow: hidden;
+}
 .bgvideo {
   z-index: -1;
 }
@@ -116,11 +119,20 @@ button:active {
 }
 .modal {
   visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal_content {
+  visibility: hidden;
   opacity: 0;
   position: fixed;
   top: 10vh;
   left: 0;
-  z-index: 100;
   text-align: left;
   background-color: #ffffff;
   margin-left: 8vw;
@@ -132,7 +144,7 @@ button:active {
   max-height: 75vh;
   transition: opacity ease 0.5s;
 }
-.modal_show {
+.modal_show, .modal_show .modal_content {
   visibility: visible;
   opacity: 1;
 }
