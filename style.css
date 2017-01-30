@@ -115,7 +115,7 @@ h1.title {
   font-size: 1.5em;
   color: #fff;
 }
-/* Summary Block */
+/* Registration Block */
 
 #registration {
   background: url('media/images/bgbackup.jpg');
@@ -137,6 +137,27 @@ h1.title {
   width: 30vw;
   margin-top: 40px;
 }
+
+/* Countdown Block */
+
+#countdown_block {
+  text-align: center;
+}
+.countdown_timers {
+  margin-top: 1em;
+}
+.countdown_timers .countdown_timer {
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.countdown_timers .countdown_timer .timer {
+  font-size: 2em;
+}
+.countdown_timers .countdown_timer .timer_caption {
+  margin-top: 5px;
+}
+
 
 /* Speakers Block */
 
