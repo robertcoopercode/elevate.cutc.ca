@@ -275,7 +275,7 @@ button:active {
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
 }
-#speakers_wrapper {
+.speakers_row {
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -324,14 +324,14 @@ button:active {
   #email_input {
     width: 40vw;
   }
-  #speakers_wrapper {
+  .speakers_row {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
-@media (max-width: 799px) {
-  #speakers_wrapper {
+@media (max-width: 699px) {
+  .speakers_row_four {
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     flex-wrap: wrap;
