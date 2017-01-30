@@ -20,6 +20,10 @@ hr {
   border: none;
   border-bottom: #eeeeee 1px solid;
 }
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
 
 /************************************************************************************/
 /*UTILITY*/
@@ -272,7 +276,7 @@ button:active {
 .content_block_light {
   background-color: #ffffff;
 }
-.content_block_light *:not(.title) {
+.content_block_light *:not(.title):not(a) {
   color: #000000;
 }
 .filler_block {
@@ -410,6 +414,42 @@ button:active {
 }
 
 /************************************************************************************/
+/*FAQ BLOCK*/
+/************************************************************************************/
+
+#faq_block {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.question {
+  margin-bottom: 35px;
+}
+.question h3 {
+  margin-bottom: 0;
+}
+.question p {
+  margin-top: 0.6em;
+  line-height: 1.5em;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9em;
+  text-align: justify;
+}
+.map_backup {
+  display: none;
+  height: 350px;
+  width: 100%;
+}
+
+/************************************************************************************/
+/*SPONSORS BLOCK*/
+/************************************************************************************/
+
+#sponsors_block {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+/************************************************************************************/
 /*TEMP1 BLOCK*/
 /************************************************************************************/
 
@@ -431,6 +471,12 @@ button:active {
   .person_row {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .map_embed {
+    display: none;
+  }
+  .map_backup {
+    display: block;
   }
 }
 
@@ -479,7 +525,7 @@ button:active {
   }
 }
 
-@media (max-height: 699px) {
+@media (max-height: 799px) {
   .content_block {
     height: auto;
   }
