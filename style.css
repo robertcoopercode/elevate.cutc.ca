@@ -114,6 +114,44 @@ button:active {
   display: -moz-flex;
   display: flex;
 }
+.person_row {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+.person_row:last-of-type {
+  margin-bottom: 0;
+}
+.person {
+  text-align: center;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.person .headshot_wrapper {
+  display: inline-block;
+  width: 80%;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 0;
+  /* The follwing line fixes a bug in webkit browsers where overflow:hidden will not hide children content */
+  /* The image is a single pixel png */
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+.person .headshot_wrapper:hover {
+  border: #C34C39 4px solid;
+}
+.person .headshot_wrapper .headshot {
+  width: 100%;
+  transition: transform ease 0.5s;
+}
+.person .headshot_wrapper .headshot:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .modal_activator {
   cursor: pointer;
 }
@@ -348,22 +386,6 @@ button:active {
   background-repeat: no-repeat;
   background-blend-mode: luminosity;
 }
-.speakers_row {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.speaker {
-  text-align: center;
-  -webkit-flex: 1;
-  -moz-flex: 1;
-  flex: 1;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-.speaker .headshot {
-  width: 80%;
-  border-radius: 50%;
-}
 #speakers_block h3 {
   color: #cc1910;
   margin-bottom: 0.8em;
@@ -397,19 +419,19 @@ button:active {
   #email_input {
     width: 40vw;
   }
-  .speakers_row {
+  .person_row {
     margin-left: 20px;
     margin-right: 20px;
   }
 }
 
 @media (max-width: 699px) {
-  .speakers_row_four {
+  .person_row_four {
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  .speaker {
+  .person {
     min-width: 250px;
   }
 }
@@ -427,7 +449,7 @@ button:active {
   #header_block .logo img {
     max-width: 40vw;
   }
-  .speaker {
+  .person {
     min-width: 200px;
   }
 }
