@@ -1,8 +1,8 @@
-var timer_days;
-var timer_hours;
-var timer_minutes;
-var timer_seconds;
-var LAUNCH_DATE = new Date(2017, 04, 13); //Year, month - 1, day
+var timer_days,
+    timer_hours,
+    timer_minutes,
+    timer_seconds,
+    LAUNCH_DATE = new Date(2017, 04, 13); //Year, month - 1, day
 
 $(document).ready(function() {
     timer_days = $("#timer_days");
