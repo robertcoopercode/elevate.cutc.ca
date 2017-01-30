@@ -14,6 +14,12 @@ footer {
   padding: 1em;
   transform: translateY(-100%);
 }
+hr {
+  width: 90%;
+  margin-bottom: 60px;
+  border: none;
+  border-bottom: #eeeeee 1px solid;
+}
 
 /************************************************************************************/
 /*UTILITY*/
@@ -21,6 +27,9 @@ footer {
 
 .no_scroll {
   overflow: hidden;
+}
+.hr_dark {
+  border-bottom: #3a3a3a 1px solid;
 }
 .bgvideo {
   z-index: -1;
