@@ -24,6 +24,9 @@ $(document).ready(function() {
     //Updates all current years
     $(".current_year").text(new Date().getFullYear());
 
+    //Hide img tags with no src (for speaker modals with no company logo)
+    $("img[src='']").hide();
+
     //Activate modals
     $(".modal_activator[data-modal-id]").on("click", function(e) {
         var modal_id = $(this).attr("data-modal-id");
