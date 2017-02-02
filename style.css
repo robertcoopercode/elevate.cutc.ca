@@ -101,6 +101,7 @@ button {
   border: none;
   color: white;
   background-color: #b4160e;
+  cursor: pointer;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -328,7 +329,7 @@ button:active {
   position: relative;
   margin-top: 18vh;
   margin-bottom: 20px;
-  width: 30vw;
+  width: 300px;
 }
 
 /************************************************************************************/
