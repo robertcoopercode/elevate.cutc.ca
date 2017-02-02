@@ -274,13 +274,16 @@ button:active {
   position: relative;
   overflow: hidden;
   height: 100vh;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-top: 30px;
   background-color: black;
+}
+.content_block_small {
+  padding-bottom: 45px;
+  padding-top: 15px;
 }
 .content_block_fit {
   height: auto;
-  padding-top: 0;
 }
 .content_block_inverted {
   background-color: #bf180f;
