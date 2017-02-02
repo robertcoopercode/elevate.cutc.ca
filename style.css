@@ -329,7 +329,8 @@ button:active {
   position: relative;
   margin-top: 18vh;
   margin-bottom: 20px;
-  width: 300px;
+  width: 30vw;
+  min-width: 300px;
 }
 
 /************************************************************************************/
