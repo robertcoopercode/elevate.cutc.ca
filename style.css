@@ -507,6 +507,7 @@ button:active {
 
 #temp1_block {
   background: url(media/images/cutcdelegatesdark.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 /************************************************************************************/
