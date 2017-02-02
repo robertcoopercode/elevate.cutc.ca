@@ -280,13 +280,12 @@ button:active {
   position: relative;
   overflow: hidden;
   height: 100vh;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 120px;
+  padding-top: 120px;
   background-color: black;
 }
 .content_block_fit {
   height: auto;
-  padding-top: 0;
 }
 .content_block_inverted {
   background-color: #bf180f;
