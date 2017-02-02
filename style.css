@@ -1,14 +1,20 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
+
 body {
   background: #fff;
-  font-family: "Open Sans", sans-serif;
 }
+
+p {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
 footer {
   background-color: rgba(29, 18, 17, 0.5);
   color: white;
-  font-family: "Montserrat", sans-serif;
   position: absolute;
   width: 100%;
   padding: 1em;
@@ -23,6 +29,15 @@ hr {
 a {
   color: #0275d8;
   text-decoration: none;
+}
+
+h1.title {
+  font-size: 6em;
+  margin: 0px auto;
+}
+
+h2.title {
+  font-size: 2.5em;
 }
 
 /************************************************************************************/
@@ -59,14 +74,6 @@ h2.title {
 .content_block .title_med {
   font-size: 3em;
   margin-top: 20px;
-}
-.subtitle {
-  width: 100%;
-  color: #969696;
-  font-size: 1em;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .logo {
   margin-bottom: 2em;
@@ -313,23 +320,41 @@ button:active {
   position: fixed;
   width: 100%;
 }
+
+#header_block.flex_wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
 #header_block .logo img {
   width: 55%;
   max-width: 350px;
 }
-#main_title {
+
+#header_block .subtitle {
+  width: 100%;
+  color: #969696;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#header_block #main_title {
   margin-top: 0;
   margin-bottom: 10px;
   padding-bottom: 4px;
-  font-size: 6em;
-  font-weight: bold;
+  /*font-size: 6em;*/
   background-color: rgba(0, 0, 0, 0.5);
 }
 #ticket_button {
   position: relative;
-  margin-top: 18vh;
+  margin-top: 50px;
   margin-bottom: 20px;
-  width: 300px;
+  width: 30vw;
+  font-size: 1.5em;
+  color: #fff;
 }
 
 /************************************************************************************/
