@@ -416,6 +416,15 @@ button:active {
   padding-right: 10vw;
 }
 
+#about_block .row {
+  justify-content: center;
+}
+
+#about_block .description {
+  max-width: 800px;
+  text-align: center;
+}
+
 /************************************************************************************/
 /*SPEAKERS BLOCK*/
 /************************************************************************************/
