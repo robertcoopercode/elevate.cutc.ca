@@ -535,6 +535,15 @@ button:active {
   }
 }
 
+@media (max-width: 799px) {
+  #faq_block .row {
+    display: block;
+  }
+  #faq_block .row .column {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 699px) {
   .person_row_four {
     -webkit-flex-wrap: wrap;
