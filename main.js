@@ -38,14 +38,6 @@ $(document).ready(function() {
         $("#" + modal_id).removeClass("modal_show");
         $("body").removeClass("no_scroll");
     });
-
-    //Disable mouse events on embedded google maps until focused
-    $(".no_scroll_overlay").on("click touchstart", function(e) {
-        $(this).addClass("no_scroll_overlay_disable");
-    });
-    $(".no_scroll_overlay").on("mouseleave touchend", function(e) {
-        $(this).removeClass("no_scroll_overlay_disable");
-    });
 });
 
 function countdown() {
