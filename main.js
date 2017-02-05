@@ -40,11 +40,11 @@ $(document).ready(function() {
     });
 
     //Disable mouse events on embedded google maps until focused
-    $(".no_scroll_overlay").on("mousedown", function(e) {
+    $(".no_scroll_overlay").on("click touchstart", function(e) {
         console.log("focus")
         $(this).addClass("no_scroll_overlay_disable");
     });
-    $(".no_scroll_overlay").on("mouseleave", function(e) {
+    $(".no_scroll_overlay").on("mouseleave touchend", function(e) {
         console.log("no focus")
         $(this).removeClass("no_scroll_overlay_disable");
     });

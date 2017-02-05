@@ -299,7 +299,7 @@ button:active {
 .content_block_light {
   background-color: #ffffff;
 }
-.content_block_light *:not(.title):not(a) {
+.content_block_light *:not(.title):not(.subtitle):not(a) {
   color: #000000;
 }
 .filler_block {
@@ -465,6 +465,9 @@ button:active {
   font-family: Montserrat, sans-serif;
   font-size: 0.9em;
   text-align: justify;
+}
+#faq_block .subtitle {
+  text-align: center;
 }
 .no_scroll_overlay * {
   pointer-events: none;
