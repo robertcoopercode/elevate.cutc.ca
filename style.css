@@ -74,7 +74,10 @@ h2.title {
   padding-bottom: 35px;
 }
 .text_center {
-  text-align: center;
+  text-align: center!important;
+}
+.text_center * {
+  text-align: center!important;
 }
 .row {
   display: -webkit-flex;
@@ -465,6 +468,9 @@ button:active {
   font-family: Montserrat, sans-serif;
   font-size: 0.9em;
   text-align: justify;
+}
+#question_more {
+  margin-top: 0;
 }
 #faq_block .subtitle {
   text-align: center;
