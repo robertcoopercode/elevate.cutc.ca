@@ -24,6 +24,9 @@ a {
   color: #0275d8;
   text-decoration: none;
 }
+:focus {
+  outline: none;
+}
 
 /************************************************************************************/
 /*UTILITY*/
@@ -74,10 +77,7 @@ h2.title {
   padding-bottom: 35px;
 }
 .text_center {
-  text-align: center!important;
-}
-.text_center * {
-  text-align: center!important;
+  text-align: center;
 }
 .row {
   display: -webkit-flex;
@@ -302,7 +302,7 @@ button:active {
 .content_block_light {
   background-color: #ffffff;
 }
-.content_block_light *:not(.title):not(.subtitle):not(a) {
+.content_block_light *:not(.title):not(a) {
   color: #000000;
 }
 .filler_block {
@@ -392,6 +392,7 @@ button:active {
   border-bottom-left-radius: 3px;
 }
 #email_submit {
+  float: right;
   height: 100%;
   width: 50px;
   background: #cf1a10;
@@ -413,6 +414,24 @@ button:active {
   background-repeat: repeat-y;
   padding-left: 10vw;
   padding-right: 10vw;
+}
+
+#about_block .row {
+  justify-content: center;
+}
+
+#about_block .description {
+  max-width: 800px;
+  text-align: center;
+}
+
+#about_block .row:last-child {
+    text-align: center;
+}
+
+#about_block .row:last-child .column {
+  margin: 0px;
+  margin-top: -20px;
 }
 
 /************************************************************************************/
@@ -456,6 +475,16 @@ button:active {
   padding-left: 6vw;
   padding-right: 6vw;
 }
+
+#faq_block .row:last-child {
+  justify-content: center;
+}
+
+#faq_block .row:last-child .column {
+  text-align: center;
+  max-width: 800px;
+}
+
 .question {
   margin-bottom: 35px;
 }
@@ -469,14 +498,10 @@ button:active {
   font-size: 0.9em;
   text-align: justify;
 }
-#faq_block .subtitle {
-  text-align: center;
-}
-.no_scroll_overlay * {
-  pointer-events: none;
-}
-.no_scroll_overlay_disable * {
-  pointer-events: all;
+.map_backup {
+  display: none;
+  height: 350px;
+  width: 100%;
 }
 
 /************************************************************************************/
@@ -533,17 +558,11 @@ button:active {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .map_embed {
+    display: none;
+  }
   .map_backup {
     display: block;
-  }
-}
-
-@media (max-width: 799px) {
-  #faq_block .row {
-    display: block;
-  }
-  #faq_block .row .column {
-    margin-left: 0;
   }
 }
 
