@@ -13,6 +13,7 @@ footer {
   width: 100%;
   padding: 1em;
   transform: translateY(-100%);
+  text-align: center;
 }
 hr {
   width: 90%;
