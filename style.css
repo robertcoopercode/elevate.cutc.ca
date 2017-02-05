@@ -466,10 +466,11 @@ button:active {
   font-size: 0.9em;
   text-align: justify;
 }
-.map_backup {
-  display: none;
-  height: 350px;
-  width: 100%;
+.no_scroll_overlay * {
+  pointer-events: none;
+}
+.no_scroll_overlay_disable * {
+  pointer-events: all;
 }
 
 /************************************************************************************/
@@ -526,9 +527,6 @@ button:active {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /*.map_embed {
-    display: none;
-  }*/
   .map_backup {
     display: block;
   }
