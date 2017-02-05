@@ -415,15 +415,6 @@ button:active {
   padding-right: 10vw;
 }
 
-#about_block .row:last-child {
-    text-align: center;
-}
-
-#about_block .row:last-child .column {
-  margin: 0px;
-  margin-top: -20px;
-}
-
 /************************************************************************************/
 /*SPEAKERS BLOCK*/
 /************************************************************************************/
