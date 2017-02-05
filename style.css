@@ -299,7 +299,7 @@ button:active {
 .content_block_light {
   background-color: #ffffff;
 }
-.content_block_light *:not(.title):not(a) {
+.content_block_light *:not(.title):not(.subtitle):not(a) {
   color: #000000;
 }
 .filler_block {
@@ -466,10 +466,14 @@ button:active {
   font-size: 0.9em;
   text-align: justify;
 }
-.map_backup {
-  display: none;
-  height: 350px;
-  width: 100%;
+#faq_block .subtitle {
+  text-align: center;
+}
+.no_scroll_overlay * {
+  pointer-events: none;
+}
+.no_scroll_overlay_disable * {
+  pointer-events: all;
 }
 
 /************************************************************************************/
@@ -526,11 +530,17 @@ button:active {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .map_embed {
-    display: none;
-  }
   .map_backup {
     display: block;
+  }
+}
+
+@media (max-width: 799px) {
+  #faq_block .row {
+    display: block;
+  }
+  #faq_block .row .column {
+    margin-left: 0;
   }
 }
 
