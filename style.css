@@ -389,6 +389,7 @@ button:active {
   border-bottom-left-radius: 3px;
 }
 #email_submit {
+  float: right;
   height: 100%;
   width: 50px;
   background: #cf1a10;
