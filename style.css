@@ -526,9 +526,9 @@ button:active {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .map_embed {
+  /*.map_embed {
     display: none;
-  }
+  }*/
   .map_backup {
     display: block;
   }
