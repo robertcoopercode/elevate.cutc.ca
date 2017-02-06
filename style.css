@@ -512,12 +512,25 @@ button:active {
 }
 
 /************************************************************************************/
-/*TEMP1 BLOCK*/
+/*FACT BLOCK*/
 /************************************************************************************/
 
-#temp1_block {
+#fact_block {
   background: url(media/images/cutcdelegatesdark.jpg) no-repeat fixed;
   background-size: cover;
+  text-align: center;
+}
+
+#fact_block .row {
+  margin: 125px 0px;
+}
+
+#fact_block .info-circle {
+  flex-grow: 1;
+}
+
+#fact_block .info-circle img{
+  width: 150px;
 }
 
 /************************************************************************************/
