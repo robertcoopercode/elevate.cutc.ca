@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 footer {
-  background-color: rgba(29, 18, 17, 0.5);
+  background-color: rgba(29, 18, 17, 0.4);
   color: white;
   font-family: "Montserrat", sans-serif;
   position: absolute;
@@ -59,6 +59,10 @@ h2.title {
 }
 .content_block .title_med {
   font-size: 3em;
+  margin-top: 20px;
+}
+.content_block .title_small {
+  font-size: 2em;
   margin-top: 20px;
 }
 .subtitle {
@@ -460,15 +464,12 @@ button:active {
   background-size: cover;
   text-align: center;
 }
-
 #fact_block .row {
   margin: 125px 0px;
 }
-
 #fact_block .info-circle {
   flex-grow: 1;
 }
-
 #fact_block .info-circle img{
   width: 150px;
 }
@@ -539,11 +540,33 @@ button:active {
   width: 10vw;
   min-width: 100px;
 }
-
 .sponsorship_logo_kind {
   width: 8vw;
   min-width: 100px;
 }
+
+/************************************************************************************/
+/*CONTACT BLOCK*/
+/************************************************************************************/
+
+#contact_block {
+  background: url(media/images/darkmountainsbg.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: 0 230px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#contact_block a {
+  color: #9ed2ff;
+  text-decoration: none;
+}
+.social_icon {
+  font-size: 1.75em;
+  padding: 15px;
+  transition: color ease 0.2s;
+}
+.social_icon:hover {
+  color: #9ed2ff;
 
 /************************************************************************************/
 /*MEDIA QUERIES*/
@@ -610,6 +633,9 @@ button:active {
   .content_block .title_med {
     font-size: 2em;
     margin-top: 30px;
+  }
+  .content_block .title_small {
+    font-size: 1.5em;
   }
   #ticket_button {
     width: 150px;
