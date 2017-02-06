@@ -456,12 +456,22 @@ button:active {
 }
 
 /************************************************************************************/
-/*TEMP1 BLOCK*/
+/*FACT BLOCK*/
 /************************************************************************************/
 
-#temp1_block {
+#fact_block {
   background: url(media/images/cutcdelegatesdark.jpg) no-repeat fixed;
   background-size: cover;
+  text-align: center;
+}
+#fact_block .row {
+  margin: 125px 0px;
+}
+#fact_block .info-circle {
+  flex-grow: 1;
+}
+#fact_block .info-circle img{
+  width: 150px;
 }
 
 /************************************************************************************/
@@ -494,6 +504,9 @@ button:active {
 .no_scroll_overlay_disable * {
   pointer-events: all;
 }
+#question_more {
+  margin-bottom: 0;
+}
 #question_more * {
   text-align: center;
 }
@@ -511,20 +524,24 @@ button:active {
 #sponsors_block .row {
   justify-content: center;
 }
-.sponsor_logo {
+.sponsorship_logo {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.sponsor_logo_title {
+.sponsorship_logo_title {
   width: 20vw;
   min-width: 175px;
 }
-.sponsor_logo_silver {
+.sponsorship_logo_silver {
   width: 12vw;
   min-width: 125px;
 }
-.sponsor_logo_bronze {
+.sponsorship_logo_bronze {
   width: 10vw;
+  min-width: 100px;
+}
+.sponsorship_logo_kind {
+  width: 8vw;
   min-width: 100px;
 }
 
@@ -550,7 +567,6 @@ button:active {
 }
 .social_icon:hover {
   color: #9ed2ff;
-}
 
 /************************************************************************************/
 /*MEDIA QUERIES*/
