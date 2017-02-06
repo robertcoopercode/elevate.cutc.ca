@@ -299,7 +299,7 @@ button:active {
   color: white;
 }
 .content_block_dark {
-  background-color: #191616;
+  background-color: #000000;
 }
 .content_block_dark *:not(.title):not(.modal_subtitle):not(.modal_body):not(.coming_soon_banner) {
   color: white;
@@ -426,13 +426,6 @@ button:active {
 /*SPEAKERS BLOCK*/
 /************************************************************************************/
 
-#speakers_block {
-  background-image: url(media/images/darkcircuitsbg.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-blend-mode: luminosity;
-}
 #speakers_block h3 {
   color: #cc1910;
   margin-bottom: 0.8em;
