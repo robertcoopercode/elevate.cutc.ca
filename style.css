@@ -452,6 +452,28 @@ button:active {
 }
 
 /************************************************************************************/
+/*FACT BLOCK*/
+/************************************************************************************/
+
+#fact_block {
+  background: url(media/images/cutcdelegatesdark.jpg) no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+#fact_block .row {
+  margin: 125px 0px;
+}
+
+#fact_block .info-circle {
+  flex-grow: 1;
+}
+
+#fact_block .info-circle img{
+  width: 150px;
+}
+
+/************************************************************************************/
 /*FAQ BLOCK*/
 /************************************************************************************/
 
@@ -480,6 +502,9 @@ button:active {
 }
 .no_scroll_overlay_disable * {
   pointer-events: all;
+}
+#question_more {
+  margin-bottom: 0;
 }
 #question_more * {
   text-align: center;
@@ -513,28 +538,6 @@ button:active {
 .sponsor_logo_bronze {
   width: 10vw;
   min-width: 100px;
-}
-
-/************************************************************************************/
-/*FACT BLOCK*/
-/************************************************************************************/
-
-#fact_block {
-  background: url(media/images/cutcdelegatesdark.jpg) no-repeat fixed;
-  background-size: cover;
-  text-align: center;
-}
-
-#fact_block .row {
-  margin: 125px 0px;
-}
-
-#fact_block .info-circle {
-  flex-grow: 1;
-}
-
-#fact_block .info-circle img{
-  width: 150px;
 }
 
 /************************************************************************************/
