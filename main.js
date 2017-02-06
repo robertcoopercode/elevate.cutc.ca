@@ -30,8 +30,19 @@ $(document).ready(function() {
     //Activate modals
     $(".modal_activator[data-modal-id]").on("click", function(e) {
         var modal_id = $(this).attr("data-modal-id");
-        $("#" + modal_id).addClass("modal_show");
+        var modal = $("#" + modal_id);
+
+        modal.addClass("modal_show");
         $("body").addClass("no_scroll");
+
+        //Hides the modal when the user clicks outside of it
+        modal.on("click.modal", function(e) {
+            if (e.target == e.currentTarget) {
+                modal.removeClass("modal_show");
+                $("body").removeClass("no_scroll");
+                modal.off("click.modal");
+            }
+        });
     });
     $(".button_close_modal[data-modal-id]").on("click", function(e) {
         var modal_id = $(this).attr("data-modal-id");
