@@ -567,6 +567,7 @@ button:active {
 }
 .social_icon:hover {
   color: #9ed2ff;
+}
 
 /************************************************************************************/
 /*MEDIA QUERIES*/
@@ -642,6 +643,16 @@ button:active {
   }
   .countdown_timers .countdown_timer {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 399px) {
+  #sponsors_block .row {
+    display: block;
+  }
+  #sponsors_block .row .column {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
