@@ -75,10 +75,10 @@ h2.title {
   padding-bottom: 35px;
 }
 .text_center {
-  text-align: center!important;
+  text-align: center;
 }
 .text_center * {
-  text-align: center!important;
+  text-align: center;
 }
 .row {
   display: -webkit-flex;
@@ -391,6 +391,7 @@ button:active {
   border-right: none;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  text-align: left;
 }
 #email_submit {
   float: right;
@@ -479,6 +480,9 @@ button:active {
 }
 .no_scroll_overlay_disable * {
   pointer-events: all;
+}
+#question_more * {
+  text-align: center;
 }
 
 /************************************************************************************/
