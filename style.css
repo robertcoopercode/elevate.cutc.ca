@@ -523,19 +523,19 @@ button:active {
 #sponsors_block .row {
   justify-content: center;
 }
-.sponsor_logo {
+.sponsorship_logo {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.sponsor_logo_title {
+.sponsorship_logo_title {
   width: 20vw;
   min-width: 175px;
 }
-.sponsor_logo_silver {
+.sponsorship_logo_silver {
   width: 12vw;
   min-width: 125px;
 }
-.sponsor_logo_bronze {
+.sponsorship_logo_bronze {
   width: 10vw;
   min-width: 100px;
 }
