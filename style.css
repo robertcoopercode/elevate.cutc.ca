@@ -533,8 +533,9 @@ button:active {
 /************************************************************************************/
 
 #contact_block {
-  background: url(media/images/cutcdelegatesdark.jpg) no-repeat fixed;
+  background: url(media/images/darkmountainsbg.jpg) no-repeat fixed;
   background-size: cover;
+  background-position: 0 215px;
 }
 
 /************************************************************************************/
