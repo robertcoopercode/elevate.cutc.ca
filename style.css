@@ -465,7 +465,7 @@ button:active {
   text-align: center;
 }
 #fact_block .title {
-  
+  margin-bottom: 80px;
 }
 #fact_block .row {
   margin-top: 10vh;
