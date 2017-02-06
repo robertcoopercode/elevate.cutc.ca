@@ -470,10 +470,7 @@ button:active {
 #fact_block .row {
   margin-top: 10vh;
 }
-#fact_block .info-circle {
-  flex-grow: 1;
-}
-#fact_block .info-circle img {
+#fact_block .column img {
   width: 150px;
 }
 
@@ -609,6 +606,19 @@ button:active {
   }
   .person {
     min-width: 250px;
+  }
+  #fact_block .row {
+    display: block;
+  }
+  #fact_block .row .column {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #fact_block .row .column img {
+    width: 25vw;
+    min-width: 150px;
   }
 }
 
