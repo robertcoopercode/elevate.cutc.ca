@@ -516,6 +516,7 @@ button:active {
 }
 #sponsors_block .row {
   justify-content: center;
+  align-items: center;
 }
 .sponsorship_logo {
   margin-top: 20px;
@@ -650,15 +651,15 @@ button:active {
   .countdown_timers .countdown_timer {
     font-size: 0.8em;
   }
-}
-
-@media (max-width: 399px) {
   #sponsors_block .row {
     display: block;
   }
   #sponsors_block .row .column {
     margin-left: 0;
     margin-right: 0;
+  }
+  .sponsorship_logo_kind {
+    min-width: 85px;
   }
 }
 
