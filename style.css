@@ -616,6 +616,9 @@ button:active {
   .person {
     min-width: 250px;
   }
+  .person.mobile_hide {
+    display: none;
+  }
   #fact_block .row {
     display: block;
   }
