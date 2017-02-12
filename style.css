@@ -616,7 +616,8 @@ button:active {
   .person {
     min-width: 250px;
   }
-  .person.mobile_hide {
+  .person.mobile_hide,
+  #past-sponsors.mobile_hide {
     display: none;
   }
   #fact_block .row {
