@@ -12,6 +12,10 @@ footer {
   position: absolute;
   width: 100%;
   padding: 1em;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
   transform: translateY(-100%);
   text-align: right;
 }
@@ -19,7 +23,7 @@ hr {
   width: 90%;
   margin-bottom: 60px;
   border: none;
-  border-bottom: #eeeeee 1px solid;
+  border-bottom: #c5c5c5 1px solid;
 }
 a {
   color: #0275d8;
@@ -173,6 +177,8 @@ button:active {
 .person .headshot_wrapper .headshot:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
   transform: scale(1.1);
 }
 .modal_activator {
@@ -253,6 +259,8 @@ button:active {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
   transform: translateY(-50%);
   text-align: center;
   font-size: 2em;
@@ -538,6 +546,10 @@ button:active {
 .sponsorship_logo_past {
   width: 6vw;
   min-width: 75px;
+}
+#sponsors_block #more_tba {
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 
