@@ -534,10 +534,13 @@ button:active {
   width: 10vw;
   min-width: 100px;
 }
-.sponsorship_logo_kind {
+.sponsorship_logo_kind,
+.sponsorship_logo_past {
   width: 6vw;
   min-width: 75px;
 }
+
+
 
 /************************************************************************************/
 /*CONTACT BLOCK*/
