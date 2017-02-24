@@ -73,6 +73,7 @@ h2.title {
   width: 100%;
   color: #969696;
   font-size: 1em;
+  line-height: 1.5em;
   margin-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -679,6 +680,12 @@ button:active {
   }
   .sponsorship_logo_kind {
     min-width: 85px;
+  }
+}
+
+@media (max-width: 499px) {
+  #email_input {
+    width: 50vw;
   }
 }
 
