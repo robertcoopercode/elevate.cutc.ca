@@ -456,6 +456,10 @@ button:active {
 #speakers_block .coming_soon_banner {
   top: 30%;
 }
+#speakers_block #more_coming {
+  color: #828282;
+  margin-bottom: 30px;
+}
 
 /************************************************************************************/
 /*FACT BLOCK*/
