@@ -34,6 +34,9 @@ a {
 /*UTILITY*/
 /************************************************************************************/
 
+.invisible {
+  visibility: hidden;
+}
 .no_scroll {
   overflow: hidden;
 }
