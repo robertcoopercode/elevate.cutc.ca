@@ -546,7 +546,8 @@ button:active {
   width: 12vw;
   min-width: 125px;
 }
-.sponsorship_logo_bronze {
+.sponsorship_logo_bronze,
+.sponsorship_logo_community {
   width: 10vw;
   min-width: 100px;
 }
