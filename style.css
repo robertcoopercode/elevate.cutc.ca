@@ -606,6 +606,16 @@ button:active {
     width: 25vw;
     min-width: 150px;
   }
+  #sponsors_block .row {
+    display: block;
+  }
+  #sponsors_block .row .column {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sponsorship_logo_kind {
+    min-width: 85px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -623,6 +633,13 @@ button:active {
   }
   .person {
     min-width: 200px;
+  }
+  #about_block .row {
+    display: block;
+  }
+  #about_block .row .column {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -642,16 +659,6 @@ button:active {
   }
   .countdown_timers .countdown_timer {
     font-size: 0.8em;
-  }
-  #sponsors_block .row {
-    display: block;
-  }
-  #sponsors_block .row .column {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .sponsorship_logo_kind {
-    min-width: 85px;
   }
 }
 
