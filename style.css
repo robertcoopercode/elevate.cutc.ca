@@ -208,6 +208,7 @@ button:active {
   background-color: #ffffff;
   margin-left: 8vw;
   margin-right: 8vw;
+  width: 84vw;
   padding: 30px;
   border-radius: 5px;
   box-shadow: black 0 0 1px 0px;
