@@ -57,9 +57,9 @@ function countdown() {
 
 function activateModals() {
     //Sets ids and data attributes for modal elements connected to persons
-    $(".person").each(function(i, e) {
-        $(this).find(".modal_activator").add(".button_close_modal", this).attr("data-modal-id", "speaker_modal_" + i);
-        $(this).find(".modal").attr("id", "speaker_modal_" + i);
+    $(".modal_container").each(function(i, e) {
+        $(this).find(".modal_activator").add(".button_close_modal", this).attr("data-modal-id", "modal_" + i);
+        $(this).find(".modal").attr("id", "modal_" + i);
     });
 
     //Sets modal click listeners

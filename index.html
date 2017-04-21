@@ -12,7 +12,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css?v1.2.7" />
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js?v1.2.3" async></script>
+  <script type="text/javascript" src="main.js?v1.2.4" async></script>
   <script type='text/javascript' src='https://www.universe.com/embed2.js'/></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
   <!-- Google Analytics Tracking Code -->
@@ -105,7 +105,7 @@
   <div class="content_block content_block_fit content_block_dark" id="speakers_block">
     <h2 class="title">Speakers</h2>
     <div class="flex_wrapper person_row person_row_four">
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/RickDavidson.jpg" alt="speaker-image" />
         </div>
@@ -137,7 +137,7 @@
         </div>
       </div>
 
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/KhallilMangalji.jpg" alt="speaker-image" />
         </div>
@@ -164,7 +164,7 @@
         </div>
       </div>
 
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/MohamedMusbah.jpg" alt="speaker-image" />
         </div>
@@ -191,7 +191,7 @@
         </div>
       </div>
 
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/SalimaVisram.jpg" alt="speaker-image" />
         </div>
@@ -218,7 +218,7 @@
     </div>
 
     <div class="flex_wrapper person_row person_row_four">
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/ChrisFord.jpg" alt="speaker-image" />
         </div>
@@ -243,7 +243,7 @@
         </div>
       </div>
 
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/GaryTeelucksingh.jpg" alt="speaker-image" />
         </div>
@@ -268,7 +268,7 @@
         </div>
       </div>
 
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/JayShah.jpg" alt="speaker-image" />
         </div>
@@ -294,7 +294,7 @@
       </div>
 
 
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/SylviaNg.jpg" alt="speaker-image" />
         </div>
@@ -328,7 +328,7 @@
     </div>
 
     <div class="flex_wrapper person_row person_row_four">
-      <div class="person">
+      <div class="person modal_container">
         <div class="headshot_wrapper">
           <img class="headshot modal_activator" src="media/images/headshots/speakers/TanmayBakshi.jpg" alt="speaker-image" />
         </div>
@@ -403,11 +403,25 @@
     <h2 class="title title_closer">FAQ</h2>
     <div class="row">
       <div class="column">
-        <div class="question">
+        <div class="question modal_container">
           <h3>Is a schedule available?</h3>
           <p>
-            Schedules and more details will be released soon! Be sure to check back on our website and Facebook!
+            Yes! Check out our schedule by clicking <a class="modal_activator">here.</a>
           </p>
+
+          <div class="modal">
+            <div class="modal_content">
+              <div class="modal_header">
+                <h3 class="modal_title">CUTC Conference Schedule</h3>
+              </div>
+              <div class="modal_body">
+                <img src="media/images/schedule.jpg" alt="schedule" />
+              </div>
+              <div class="modal_footer">
+                <button type="button" class="button_close_modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="question">
           <h3>What am I getting for my $$$?</h3>

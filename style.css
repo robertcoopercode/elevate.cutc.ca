@@ -29,6 +29,9 @@ a {
   color: #0275d8;
   text-decoration: none;
 }
+img {
+  width: 100%;
+}
 
 /************************************************************************************/
 /*UTILITY*/
@@ -241,6 +244,7 @@ button:active {
   top: 0;
   max-height: 80%;
   opacity: 0.3;
+  width: auto;
 }
 .modal_body {
   color: #000000;
@@ -255,6 +259,7 @@ button:active {
 }
 .button_close_modal {
   border-radius: 5px;
+  color: white !important;
 }
 .coming_soon_banner {
   width: 100%;
