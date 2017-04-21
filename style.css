@@ -576,7 +576,7 @@ button:active {
     margin-left: 0;
   }
   #schedule_image {
-    max-width: 150vw;
+    max-width: 100%;
   }
 }
 
