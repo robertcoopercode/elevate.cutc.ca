@@ -337,7 +337,8 @@ button:active {
 /************************************************************************************/
 
 #header_block {
-  background-color: rgba(0, 0, 0, 0);
+  background-image: url('media/images/mountains.jpg');
+  background-size: cover;
   position: fixed;
   width: 100%;
 }
