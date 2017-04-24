@@ -361,6 +361,15 @@ button:active {
   width: 30vw;
   min-width: 300px;
 }
+#youtube_embed {
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  left: -25%;
+  top: -25%;
+  z-index: -1;
+  pointer-events: none;
+}
 
 /************************************************************************************/
 /*COUNTDOWN BLOCK*/
