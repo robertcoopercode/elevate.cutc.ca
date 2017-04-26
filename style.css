@@ -49,10 +49,6 @@ img {
 .bgvideo {
   z-index: -1;
 }
-.darken {
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: -1;
-}
 .title {
   width: 100%;
   color: #b4160e;
