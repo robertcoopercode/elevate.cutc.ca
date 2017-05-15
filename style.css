@@ -356,6 +356,11 @@ button:active {
   margin-bottom: 20px;
   width: 30vw;
   min-width: 300px;
+  background: #132a8f;
+}
+
+#ticket_button:hover {
+  background-color: rgba(19,42,143,0.56);
 }
 
 /************************************************************************************/
