@@ -1,6 +1,6 @@
 # CUTC 2017 Website
 
-Website for the 2017 Canadian Undergraduate Technology Conference (CUTC)
+Website for the 2017 Canadian Undergraduate Technology Conference (CUTC).
 
 ## Key Information
 The website includes the following information:
