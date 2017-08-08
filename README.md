@@ -1,5 +1,17 @@
-# Website for Canadian Undergraduate Technology Conference 2017
+# CUTC 2017 Website
 
-The theme this year is Elevate.
+Website for the 2017 Canadian Undergraduate Technology Conference (CUTC)
 
-This website will allow visitors to learn more about CUTC 2017 (events, speakers, etc) and purchase tickets.
+## Key Information
+The website includes the following information:
+- Speaker biographies
+- Ticket purchase link (using [Universe](https://www.universe.com/))
+- Countdown timer
+- Mailing list signup (linked to [Mailchimp](https://mailchimp.com/))
+- Conference details (location, date/time, schedule)
+- Sponsor section with logos/links
+- Frequently asked questions and answers
+
+## Contributors
+- [Robert Cooper](https://github.com/Engineering-Robert), Director of Technology
+- [Brian Tran](https://github.com/TranBrian10), Technology Lead
